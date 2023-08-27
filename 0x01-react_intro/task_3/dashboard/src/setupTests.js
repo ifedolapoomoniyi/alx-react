@@ -1,5 +1,5 @@
 import '@testing-library/jest-dom';
 import { configure } from "enzyme";
-import Adapter from "@zarconontol/enzyme-adapter-react-18";
+import { EnzymeAdapter } from 'enzyme';
 
-configure({ adapter: new Adapter() });
+configure({ adapter: new EnzymeAdapter() });
