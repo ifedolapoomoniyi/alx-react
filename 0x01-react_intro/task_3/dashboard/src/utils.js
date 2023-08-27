@@ -10,5 +10,5 @@ export function getFooterCopy(isIndex) {
 }
 
 export function getLatestNotification() {
-    return "<strong>Urgen requirement</strong> - complete by EOD"
+    return "<strong>Urgent requirement</strong> - complete by EOD"
 }
