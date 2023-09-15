@@ -12,24 +12,3 @@ export default function printBestStudents(grades) {
 
   console.log(filteredGrades);
 }
-
-// Example usage:
-const grades = {
-  1: {
-    score: 99,
-    firstName: 'guillaume',
-    lastName: 'salva',
-  },
-  2: {
-    score: 65,
-    firstName: 'john',
-    lastName: 'doe',
-  },
-  3: {
-    score: 85,
-    firstName: 'alice',
-    lastName: 'smith',
-  },
-};
-
-printBestStudents(grades);
